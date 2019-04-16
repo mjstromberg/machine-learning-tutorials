@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@tensorflow/tfjs": "^1.0.1",
+    "@tensorflow/tfjs-vis": "^1.0.3",
+    "big.js": "^5.2.2",
+    "lodash": "^4.17.11",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"

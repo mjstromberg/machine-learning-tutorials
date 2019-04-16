@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
-import HelloWorld from './helloWorld.story';
+import CelciusToFahrenheit from './celciusToFahrenheit.story';
 
 import { Button, Welcome } from '@storybook/react/demo';
 
@@ -18,7 +18,7 @@ storiesOf('Button', module)
     </Button>
   ));
 
-storiesOf('Hello, World!', module)
+storiesOf('Celcius To Fahrenheit', module)
   .add('Basic', () => (
-    <HelloWorld />
+    <CelciusToFahrenheit />
   ));
