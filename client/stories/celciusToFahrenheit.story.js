@@ -50,7 +50,7 @@ export default class CelciusToFahrenheit extends React.Component {
 
   renderResults(prediction, inputValue) {
     return (
-      <React.Fragment>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ padding: '10 10 0 0' }}>
           Prediction:
           {prediction}
@@ -59,7 +59,7 @@ export default class CelciusToFahrenheit extends React.Component {
           Calculated:
           {isNil(inputValue) ? '' : calculate(inputValue)}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 
